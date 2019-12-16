@@ -1,0 +1,38 @@
+
+*{
+ -fx-backgroundcolor:gray;
+ -fx-textcolor:white;
+ -fx-specialcolor:orange;
+}
+.anchorpane{
+
+}
+
+.pane2{
+-fx-background-color:orange;
+}
+
+
+.label{
+
+-fx-font-size:13;
+-fx-font-weight:bold;
+-fx-text-alignment:center;
+}
+
+.jfx-slider .track{
+-fx-background-color:derive(orange,60%)
+
+}
+
+.jfx-slider .colored-track{
+-fx-background-color:-fx-specialcolor;
+}
+.jfx-slider .thumb{
+-fx-background-color:derive(orange,70%);
+-fx-border-color:transparent;
+-fx-border-width:8;
+-fx-border-style:solid inside;
+
+}
+

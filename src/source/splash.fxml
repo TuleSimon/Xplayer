@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane fx:id="stackpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="source.loadSplash">
+   <children>
+      <AnchorPane StackPane.alignment="BOTTOM_CENTER">
+         <children>
+            <ProgressIndicator layoutX="296.0" layoutY="348.0" prefHeight="57.0" prefWidth="73.0" style="-fx-progress-color: orange;">
+               <effect>
+                  <Reflection />
+               </effect>
+            </ProgressIndicator>
+            <ImageView fitHeight="430.0" fitWidth="422.0" layoutX="125.0" layoutY="-39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../splash.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

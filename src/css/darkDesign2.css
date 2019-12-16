@@ -1,0 +1,77 @@
+
+*{
+ -fx-backgroundcolor:gray;
+ -fx-textcolor:white;
+ -fx-specialcolor:orange;
+}
+#userStackpane{
+-fx-background-color:-fx-backgroundcolor;
+}
+#userAnchor{
+-fx-color:-fx-textcolor;
+}
+.button{
+-fx-background-color:orange;
+-fx-text-fill:-fx-textcolor;
+-fx-font-size:20;
+-fx-border-radius:10;
+-fx-border-width:3;
+}
+.button:hover{
+-fx-background-color:white;
+-fx-text-fill:orange;
+}
+
+.jfx-text-field, .jfx-password-field {
+    -fx-prompt-text-fill: -fx-textcolor;
+    -jfx-focus-color: -fx-specialcolor;
+    -jfx-unfocus-color: -fx-textcolor;
+    -fx-text-fill:-fx-textcolor;
+       }
+.jfx-text-field:focus{
+    -fx-background-color:black;
+    -fx-text-fill:orange;
+}
+
+.jfx-tab-pane:top .depth-container .tab-header-area .tab-header-background{
+-fx-background-color:orange;
+}
+.jfx-tab-pane:top .depth-container .tab-header-area .headers-region .tab:selected:top{
+-fx-background-color:darkorange;
+
+}
+.jfx-tab-pane:top .depth-container .tab-header-area .headers-region .tab:selected:top .jfx-rippler .tab-container .tab-label{
+-fx-text-fill:black;
+}
+.jfx-tab-pane:top .depth-container .tab-header-area .headers-region .tab-selected-line{
+-fx-background-color:red;
+}
+
+
+.label{
+-fx-text-fill:black;
+-fx-font-weight:bold;
+-fx-font-size:13;
+}
+.label:hover{
+-fx-text-fill:white;
+-fx-font-weight:bold;
+-fx-font-size:15;
+-fx-background-color:black;
+}
+.jfx-date-picker{
+-fx-font-size:15;
+-fx-focus-color:orange;
+-fx-text-fill:white;
+
+}
+
+.scroll-pane:fitToWidth .scroll-bar:vertical .track-background{
+-fx-background-color:black;
+}
+.scroll-pane:fitToWidth .scroll-bar:vertical .thumb,.scroll-pane:fitToWidth .scroll-bar:vertical .increment-button .increment-arrow{
+-fx-background-color:orange;
+}
+.scroll-pane:fitToWidth .scroll-bar:vertical .decrement-button .decrement-arrow{
+-fx-background-color:orange;
+}

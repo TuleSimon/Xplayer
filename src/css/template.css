@@ -1,0 +1,85 @@
+
+*{
+ -fx-backgroundcolor:gray;
+ -fx-textcolor:white;
+ -fx-specialcolor:orange;
+}
+
+.label2{
+
+-fx-text-fill:white;
+-fx-background-color:orange;
+-fx-font-size:13;
+-fx-font-weight:bold;
+-fx-text-alignment:center;
+}
+.label1{
+
+-fx-text-fill:white;
+-fx-background-color:orange;
+-fx-font-size:13;
+-fx-font-weight:bold;
+}
+.label3{
+
+-fx-text-fill:gray;
+-fx-background-color:derive(orange,60%);
+-fx-font-size:13;
+-fx-font-weight:bold;
+}
+.label4{
+-fx-text-fill:white;
+-fx-font-size:12;
+-fx-font-weight:bold;
+}
+.label4:hover{
+-fx-text-fill:black;
+-fx-font-size:12;
+-fx-opacity:0.5;
+}
+.Label:hover{
+-fx-text-fill:black;
+
+}
+.hbox{
+
+-fx-background-radius:10;
+-fx-border-radius:10;
+}
+
+.label1:hover{
+-fx-background-radius:30;
+-fx-text-fill:black;
+-fx-background-color:orange;
+-fx-font-size:13;
+-fx-font-weight:bold;
+}
+.label3:hover{
+
+-fx-text-fill:black;
+-fx-background-color:pink;
+-fx-font-size:13;
+-fx-font-weight:bold;
+}
+#label4:hover{
+-fx-background-color:pink;
+-fx-font-size:12;
+-fx-text-fill:black;
+}
+
+.jfx-slider .track{
+-fx-background-color:derive(orange,60%)
+
+}
+
+.jfx-slider .colored-track{
+-fx-background-color:-fx-specialcolor;
+}
+.jfx-slider .thumb{
+-fx-background-color:derive(orange,70%);
+-fx-border-color:transparent;
+-fx-border-width:8;
+-fx-border-style:solid inside;
+
+}
+

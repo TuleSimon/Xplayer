@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" fillHeight="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="111.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="86.0" prefWidth="201.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="69.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/NEXT.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="83.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/play.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="69.0" layoutX="210.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/NEXT%202.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="387.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="86.0" prefWidth="201.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="83.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/shuffle.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+   <effect>
+      <DropShadow height="65.23" radius="32.115" width="65.23" />
+   </effect>
+</HBox>
